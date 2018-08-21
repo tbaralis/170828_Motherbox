@@ -1,5 +1,5 @@
 ' ******************************************************************************
-' swxJRNL.swj - journal recorded on 03/06/18 by Taylor Aralis
+' swxJRNL.swj - journal recorded on 07/31/18 by Taylor Aralis
 ' *****************************************************************************
 Dim swApp As Object
 
@@ -23,14 +23,7 @@ Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
 Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
-boolstatus = Part.Extension.SelectByID2("", "EDGE", 0.0018151025212773675, 0.14094088130605087, 0.35232976584273956, True, 0, Nothing, 0)
-boolstatus = Part.Extension.SelectByID2("", "EDGE", 0.14709431445243126, 0.14124008187158665, 0.35262109634902572, True, 0, Nothing, 0)
-boolstatus = Part.DeSelectByID("", "EDGE", 0.14709431445240284, 0.14460702863877373, 0.35262109634891203)
-boolstatus = Part.DeSelectByID("", "EDGE", 0.00082531320748557846, 0.1424373020915084, 0.35270387103912526)
-boolstatus = Part.Extension.SelectByID2("", "EDGE", 0.098087565575951885, 0.1313831512970296, 0.35265122766338663, True, 0, Nothing, 0)
-boolstatus = Part.Extension.SelectByID2("", "EDGE", 0.10165580254619044, 0.16191043603475919, 0.3531133705930074, True, 0, Nothing, 0)
-boolstatus = Part.Extension.SelectByID2("", "EDGE", 0.14676438468114839, 0.14311060785334462, 0.3527457980810027, True, 0, Nothing, 0)
-boolstatus = Part.Extension.SelectByID2("", "EDGE", 0.14698282906658733, 0.14132617390120572, 0.085963233863992627, True, 0, Nothing, 0)
+boolstatus = Part.Extension.SelectByID2("", "EDGE", 0.1471057673153382, 0.13101409736606229, 0.24590671505291084, True, 0, Nothing, 0)
 Set myModelView = Part.ActiveView
 myModelView.FrameState = swWindowState_e.swWindowMaximized
 Part.ClearSelection2 True
